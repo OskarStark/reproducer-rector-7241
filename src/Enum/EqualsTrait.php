@@ -12,7 +12,7 @@ trait EqualsTrait
     /**
      * @param Enum
      */
-    public function equals(self $other): bool
+    public function equalsEnum(self $other): bool
     {
         return $other->getValue() === $this->getValue();
     }
