@@ -14,6 +14,8 @@ use MyCLabs\Enum\Enum;
  */
 final class Gender extends Enum
 {
+    use EqualsTrait;
+
     private const MALE = 'male';
     private const FEMALE = 'female';
 }
